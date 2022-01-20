@@ -1,0 +1,11 @@
+let addbtn = document.getelementbyid("addbtn")
+addbtn.addevtnlistener("click", function(e)){
+    let addtxt = document.getelementbyid("addtxt");
+    let notes = localstorage.getitem("notes)
+}
+if (notes == null{
+    notesObj = [];
+}
+noteobj = jsson.parse(notes);
+notesobj.push(addtxt.value)
+localstorage.setitem("notes",jason.stringify(notesobj))
